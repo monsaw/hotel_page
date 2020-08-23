@@ -1,0 +1,140 @@
+body{
+margin-right: 0;
+
+}
+
+.cont{
+  background-image: url("backimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 20px 0;
+  position: relative;
+
+
+}
+h3{
+  color:red;
+  text-align:center;
+}
+
+.nav-title{
+  position:relative;
+  z-index: 1;
+  color: white;
+}
+.link_color{
+  color: white;
+}
+
+.container-fluid{
+  padding:0 35% ;
+  text-align: center;
+}
+.image_logo{
+  width: 10%;
+  position: relative;
+  left: 43%;
+}
+
+.booking-page{
+
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  left: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.welcome-text{
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px red;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.welcome{
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+}
+
+.sidebar{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 20%;
+}
+.carossel-image{
+  text-align: center;
+
+  padding: 7% 15%;
+}
+.caro-element{
+  width: 100%;
+  height: 10%;
+
+}
+.element{
+  width: 50%;
+
+}
+
+.rooms{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.room{
+  color: blue;
+  font-size: 1.5rem;
+}
+
+
+.row_image{
+  text-align: center;
+  margin: 20px;
+
+  padding-top: 20px;
+}
+
+.rowimage{
+  padding: 20px 10px 40px;
+  text-align: center;
+  background-color: #DABA87;
+}
+.icos{
+  margin: 40px 10px 10px ;
+  width: 40px;
+  color: blue;
+}
+
+#footer{
+  text-align:center;
+}
+@media (max-width:850px) {
+  .welcome-text{
+    text-align: center;
+    margin-top: 250px;
+
+    color: #fff;
+    font-size: 3rem;
+  }
+
+  .image_logo{
+    width: 20%;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+  }
+
+  .sidebar{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 30%;
+  }
+
+}
